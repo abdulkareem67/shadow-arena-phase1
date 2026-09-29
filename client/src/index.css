@@ -1,0 +1,45 @@
+/* Shadow Arena — visual identity tokens
+   Dark, cold arena base with a single violet-cyan signal color reserved
+   for anything "live" (health, zone warnings, active abilities). */
+
+:root {
+  --sa-bg-void: #05060a;
+  --sa-bg-panel: #0d1017;
+  --sa-bg-panel-raised: #141822;
+  --sa-line: #232937;
+  --sa-text: #e7eaf2;
+  --sa-text-dim: #7b8296;
+  --sa-signal: #7c5cff;
+  --sa-signal-dim: #4a3a94;
+  --sa-danger: #ff4d6a;
+  --sa-armor: #4fd3ff;
+
+  --sa-font-display: 'Chakra Petch', 'Segoe UI', system-ui, sans-serif;
+  --sa-font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --sa-font-mono: 'IBM Plex Mono', 'Consolas', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--sa-bg-void);
+  color: var(--sa-text);
+  font-family: var(--sa-font-body);
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+canvas {
+  display: block;
+}

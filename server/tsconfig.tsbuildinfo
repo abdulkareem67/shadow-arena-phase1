@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/game/simulation.ts","./src/rooms/gameroom.ts","./src/sockets/registerhandlers.ts","../shared/constants/game.ts","../shared/maps/forgottenruins.ts","../shared/protocol/index.ts","../shared/types/entities.ts"],"version":"5.9.3"}
